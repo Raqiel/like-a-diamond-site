@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Like a Diamond</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65; max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.25rem 4rem;
+    background: #D9D0C1; color: #4A4038;
+  }
+  .marca { display: flex; align-items: center; gap: .8rem; margin-bottom: 2rem; }
+  h1 { font-size: 1.8rem; margin: 0; }
+  .sub { color: #8A8175; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; margin: 0; }
+  p.intro { margin-bottom: 2.5rem; }
+  ul { list-style: none; padding: 0; }
+  li { margin-bottom: .8rem; }
+  li a {
+    display: block; background: #EFE8DD; border-radius: 12px;
+    padding: 1rem 1.15rem; text-decoration: none; color: #4A4038; font-weight: 600;
+    border: 1px solid #C9BFB2;
+  }
+  li a span { display: block; font-weight: 400; font-size: .9rem; color: #8A8175; margin-top: .2rem; }
+  li a:hover { border-color: #B76E79; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #8A8175; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #2A2422; color: #E8E0D5; }
+    li a { background: #382F2A; color: #E8E0D5; border-color: #4A4038; }
+    li a span { color: #A8A095; }
+  }
+</style>
+</head>
+<body>
+
+<div class="marca">
+  <svg width="48" height="48" viewBox="0 0 48 48" aria-hidden="true">
+    <clipPath id="c"><rect x="0" y="0" width="48" height="48" rx="13"/></clipPath>
+    <g clip-path="url(#c)">
+      <path d="M0,0 L48,0 L24,24 Z" fill="#DBA8B1"/>
+      <path d="M48,0 L48,48 L24,24 Z" fill="#BC7A84"/>
+      <path d="M48,48 L0,48 L24,24 Z" fill="#7E4650"/>
+      <path d="M0,48 L0,0 L24,24 Z" fill="#A5646F"/>
+    </g>
+  </svg>
+  <div>
+    <h1>Like a Diamond</h1>
+    <p class="sub">Diamond Painting</p>
+  </div>
+</div>
+
+<p class="intro">Organizador para quem faz pintura com diamantes: cadastre suas telas,
+acompanhe o progresso e mantenha o inventário de cores DMC em dia.</p>
+
+<ul>
+  <li><a href="privacidade.html">Política de Privacidade
+    <span>Quais dados o aplicativo coleta e o que é feito com eles</span></a></li>
+  <li><a href="termos.html">Termos de Uso
+    <span>As regras de uso do aplicativo</span></a></li>
+  <li><a href="excluir-conta.html">Excluir minha conta
+    <span>Como apagar sua conta e todos os seus dados</span></a></li>
+</ul>
+
+<footer>
+  <p>Contato: raquel.oliveira.goncalves@outlook.com</p>
+</footer>
+
+</body>
+</html>

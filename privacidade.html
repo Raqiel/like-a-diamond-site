@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Like a Diamond</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65; max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+    background: #D9D0C1; color: #4A4038;
+  }
+  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; color: #8A4E58; }
+  .atualizado { color: #8A8175; font-size: .9rem; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid #C9BFB2; vertical-align: top; }
+  th { color: #8A4E58; font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; }
+  a { color: #A85D6B; }
+  .nota { background: #EFE8DD; border-left: 3px solid #B76E79; padding: .85rem 1rem; border-radius: 6px; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #8A8175; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #2A2422; color: #E8E0D5; }
+    h2, th { color: #D8A6AE; }
+    .nota { background: #382F2A; }
+    td, th { border-bottom-color: #4A4038; }
+    a { color: #D8A6AE; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Política de Privacidade</h1>
+<p class="atualizado">Aplicativo <strong>Like a Diamond</strong> · Última atualização: 26 de julho de 2026</p>
+
+<p>Esta política explica quais dados o aplicativo Like a Diamond coleta, por que coleta e o
+que você pode fazer a respeito. Ela foi escrita para atender à Lei Geral de Proteção de
+Dados Pessoais (Lei nº 13.709/2018).</p>
+
+<h2>Quem é responsável pelos seus dados</h2>
+<p>O controlador dos dados é <strong>Raquel de Oliveira Gonçalves</strong>.
+Para qualquer assunto relacionado a esta política, incluindo os pedidos descritos abaixo,
+o contato é <strong>raquel.oliveira.goncalves@outlook.com</strong>.</p>
+
+<h2>Quais dados são coletados</h2>
+<table>
+  <tr><th>Dado</th><th>Origem</th><th>Para que serve</th></tr>
+  <tr>
+    <td>E-mail</td>
+    <td>Você digita ao criar a conta, ou vem da sua Conta Google se você escolher entrar com o Google</td>
+    <td>Identificar sua conta e permitir o acesso</td>
+  </tr>
+  <tr>
+    <td>Nome e foto de perfil</td>
+    <td>Sua Conta Google, apenas se você entrar com o Google</td>
+    <td>Exibir seu nome e sua foto dentro do aplicativo</td>
+  </tr>
+  <tr>
+    <td>Senha</td>
+    <td>Você define, caso crie a conta por e-mail</td>
+    <td>Autenticação. A senha é gerenciada pelo Firebase Authentication e <strong>nunca fica visível para nós</strong></td>
+  </tr>
+  <tr>
+    <td>Dados das suas pinturas</td>
+    <td>Você preenche: nome, artista, loja, datas, tamanho, progresso e cores</td>
+    <td>Montar a sua galeria e o acompanhamento das pinturas</td>
+  </tr>
+  <tr>
+    <td>Fotos das pinturas</td>
+    <td>Você escolhe da galeria do aparelho</td>
+    <td>Ilustrar cada pintura no aplicativo</td>
+  </tr>
+  <tr>
+    <td>Fotos de cartelas de inventário</td>
+    <td>Você escolhe da galeria do aparelho ao usar o escaneamento</td>
+    <td>Leitura automática dos códigos DMC. Veja a seção sobre o Gemini abaixo</td>
+  </tr>
+</table>
+
+<p>O aplicativo <strong>não</strong> coleta sua localização, sua agenda de contatos, seu
+histórico de navegação nem identificadores de publicidade. Não há anúncios e não há
+rastreamento para fins de marketing.</p>
+
+<h2>Base legal</h2>
+<p>Os dados de conta e das pinturas são tratados para <strong>execução do contrato</strong>
+(art. 7º, V da LGPD): sem eles o aplicativo simplesmente não funciona, porque não haveria
+como identificar sua conta nem guardar suas pinturas.</p>
+
+<h2>Com quem os dados são compartilhados</h2>
+<p>Os dados não são vendidos nem cedidos para fins comerciais. Eles passam por dois
+serviços do Google, usados como infraestrutura:</p>
+
+<ul>
+  <li><strong>Firebase</strong> (Authentication, Firestore e Storage) — onde ficam
+  armazenados sua conta, os dados das pinturas e as fotos.</li>
+  <li><strong>Gemini API</strong> — descrito a seguir.</li>
+</ul>
+
+<h2>Escaneamento de inventário e o Gemini</h2>
+<div class="nota">
+  <p>Quando você usa o escaneamento da cartela de cores, <strong>a foto escolhida é enviada
+  para a API Gemini, do Google</strong>, que lê a tabela e devolve os códigos DMC e as
+  quantidades.</p>
+  <p>Esse envio só acontece quando você aciona o escaneamento, e apenas com a imagem que
+  você selecionou naquele momento. A foto da cartela <strong>não é guardada</strong> nos
+  nossos servidores: ela é usada na leitura e descartada. O uso dessa imagem pelo Google
+  segue os termos da Gemini API.</p>
+  <p>Se você prefere não enviar imagens a esse serviço, é possível cadastrar todas as cores
+  manualmente — o escaneamento é um atalho, nunca uma etapa obrigatória.</p>
+</div>
+
+<h2>Por quanto tempo os dados ficam guardados</h2>
+<p>Enquanto sua conta existir. Ao excluir a conta, os dados das pinturas, as fotos e o
+registro da conta são apagados. Cópias de segurança da infraestrutura podem reter
+informações por um período adicional curto, até serem sobrescritas no ciclo normal.</p>
+
+<h2>Seus direitos</h2>
+<p>A LGPD garante a você, a qualquer momento, o direito de confirmar se há tratamento dos
+seus dados, acessá-los, corrigir dados incompletos ou desatualizados, solicitar
+anonimização ou eliminação, pedir a portabilidade e revogar o consentimento.</p>
+<p>Boa parte disso você resolve sozinha dentro do aplicativo: os dados das pinturas podem
+ser editados ou apagados a qualquer momento, e a conta pode ser excluída pela tela de
+perfil. Para os demais pedidos, escreva para <strong>raquel.oliveira.goncalves@outlook.com</strong>.
+O prazo de resposta é de até 15 dias.</p>
+
+<h2>Exclusão da conta</h2>
+<p>Você pode excluir sua conta e todos os dados associados pela tela de perfil do
+aplicativo, ou pela página <a href="excluir-conta.html">Excluir minha conta</a>, que
+funciona mesmo se você já tiver desinstalado o aplicativo.</p>
+
+<h2>Crianças e adolescentes</h2>
+<p>O aplicativo não é destinado a menores de 13 anos e não coleta dados dessa faixa etária
+de forma consciente.</p>
+
+<h2>Mudanças nesta política</h2>
+<p>Se esta política mudar, a data no topo é atualizada. Mudanças relevantes na forma de
+tratar os dados serão avisadas dentro do aplicativo.</p>
+
+<footer>
+  <p><a href="index.html">Início</a> · <a href="termos.html">Termos de Uso</a> ·
+  <a href="excluir-conta.html">Excluir minha conta</a></p>
+</footer>
+
+</body>
+</html>
